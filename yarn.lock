@@ -2086,15 +2086,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@use-expo/font@npm:^2.0.0":
-  version: 2.0.0
-  resolution: "@use-expo/font@npm:2.0.0"
-  peerDependencies:
-    expo-font: ">=8.1.0"
-  checksum: 9b4deb4c1d14f3b895dd88653688917dda1a42666028241ebc8a0a399a149cb021e55963aa799cd217c08362ffcc67bfd3481eb9fdc61f5097306f64961ceba0
-  languageName: node
-  linkType: hard
-
 "abbrev@npm:1":
   version: 1.1.1
   resolution: "abbrev@npm:1.1.1"
@@ -6750,6 +6741,13 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
+"react-native-phone-call@npm:^1.0.9":
+  version: 1.0.9
+  resolution: "react-native-phone-call@npm:1.0.9"
+  checksum: f7173567a64a8ff8efb5efc991758cb61d485b31fefdaef14887a938f26b40a1fa890c423ccc06ff889c3b0a7c1a84887e0725f17ea69a704446f093726e5154
+  languageName: node
+  linkType: hard
+
 "react-native-view-shot@npm:3.1.2":
   version: 3.1.2
   resolution: "react-native-view-shot@npm:3.1.2"
@@ -7109,7 +7107,6 @@ fsevents@^1.2.7:
   resolution: "root-workspace-0b6124@workspace:."
   dependencies:
     "@babel/core": ^7.8.6
-    "@use-expo/font": ^2.0.0
     babel-preset-expo: ~8.1.0
     expo: ~37.0.3
     expo-font: ^8.1.1
@@ -7117,6 +7114,7 @@ fsevents@^1.2.7:
     react: ~16.9.0
     react-dom: ~16.9.0
     react-native: "https://github.com/expo/react-native/archive/sdk-37.0.1.tar.gz"
+    react-native-phone-call: ^1.0.9
     react-native-web: ~0.11.7
   languageName: unknown
   linkType: soft
